@@ -3883,4 +3883,62 @@ input, select, textarea {
 			padding: 4rem;
 		}
 
-	}
+/*this is me*/
+
+	}		@media screen and (max-width: 1152px) {
+
+		#headerpic span {
+			position: fixed;
+			z-index: -2;
+			max-height: 70%;
+		}
+
+		.intro header {
+			position: relative;
+			top: 118vw;
+		}
+
+		.intro header p {
+			font-size: 3vw;
+		}
+
+
+		#ourmission {
+			background-color: white;
+			top: -60vw;
+		}
+
+		#first header {
+			display: none;
+		}
+
+		#blindaroonies {
+			top: -60vw;
+		}
+
+		#whaha {
+			background-color: white;
+		}
+
+		#morewhite {
+			background-color: white;
+			top: -60vw;
+		}
+
+		div.copyright {
+			margin-bottom: 5000px;
+		}
+
+		#wrapper {
+			height: 300vw;
+		}
+
+		.gallery a.landscape img {
+			height: 14rem;
+		}
+
+		.gallery .modal .inner img {
+			height: 200rem;
+		}
+
+}
