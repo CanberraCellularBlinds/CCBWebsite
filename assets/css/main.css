@@ -3895,7 +3895,7 @@ input, select, textarea {
 
 		.intro header {
 			position: relative;
-			top: 118vw;
+			top: 112vw;
 		}
 
 		.intro header p {
@@ -3905,7 +3905,7 @@ input, select, textarea {
 
 		#ourmission {
 			background-color: white;
-			top: -60vw;
+			top: -70vw;
 		}
 
 		#first header {
@@ -3913,20 +3913,20 @@ input, select, textarea {
 		}
 
 		#blindaroonies {
-			top: -60vw;
+			top: -71vw;
 		}
 
-		#whaha {
+		#contento {
 			background-color: white;
 		}
 
-		#morewhite {
+		#colouridoo {
 			background-color: white;
-			top: -60vw;
+			top: -71vw;
 		}
 
 		div.copyright {
-			margin-bottom: 5000px;
+			margin-bottom: 100px;
 		}
 
 		#wrapper {
