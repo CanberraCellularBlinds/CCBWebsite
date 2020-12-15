@@ -3895,6 +3895,7 @@ input, select, textarea {
 
 		.intro header {
 			position: relative;
+			height: 130vw;
 			top: 112vw;
 		}
 
@@ -3905,7 +3906,7 @@ input, select, textarea {
 
 		#contento {
 			background-color: white;
-			top: -70vw;
+			top: -80vw;
 		}
 
 		#first header {
