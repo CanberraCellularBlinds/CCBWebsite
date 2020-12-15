@@ -3904,9 +3904,14 @@ input, select, textarea {
 		}
 
 
+		#mission {
+			background-color: white;
+			top: -80vw;
+		}
 		#contento {
 			background-color: white;
 			top: -80vw;
+			height: 300vw;
 		}
 
 		#first header {
@@ -3921,7 +3926,7 @@ input, select, textarea {
 
 		#colouridoo {
 			background-color: white;
-			top: -142vw;
+			top: -240vw;
 		}
 
 		div.copyright {
