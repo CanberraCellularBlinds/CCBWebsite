@@ -3887,16 +3887,20 @@ input, select, textarea {
 
 	}		@media screen and (max-width: 1152px) {
 
+		#headerlist li {
+			font-size: 2.8vw;
+		}
+
 		#headerpic span {
 			position: fixed;
 			z-index: -2;
-			max-height: 70%;
+			max-height: 65%;
 		}
 
 		.intro header {
 			position: relative;
-			height: 130vw;
-			top: 112vw;
+			height: 140vw;
+			top: 105vw;
 		}
 
 		.intro header p {
@@ -3905,8 +3909,11 @@ input, select, textarea {
 
 		#first  {
 			z-index: 100000;
-			top: -70vw;
+			top: -90vw;
 			display: absolute;
+		}
+		#first header {
+			top: -500vw;
 		}
 
 		#mission {
@@ -3916,7 +3923,6 @@ input, select, textarea {
 
 		#calltoactionmobile {
 			font-size: 3.8vw;
-\
 		}
 
 		#contento {
@@ -3925,12 +3931,12 @@ input, select, textarea {
 
 
 		#blindaroonies {
-			top: -70vw;
+			top: -90vw;
 		}
 
 		#colouridoo {
 			background-color: white;
-			top: -70vw;
+			top: -90vw;
 		}
 
 		div.copyright {
