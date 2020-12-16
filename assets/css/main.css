@@ -3903,30 +3903,34 @@ input, select, textarea {
 			font-size: 3vw;
 		}
 
+		#first  {
+			z-index: 100000;
+			top: -70vw;
+			display: absolute;
+		}
 
 		#mission {
 			background-color: white;
-			top: -80vw;
+
 		}
+
+		#calltoactionmobile {
+			font-size: 3.8vw;
+			text-decoration: underline;
+		}
+
 		#contento {
 			background-color: white;
-			top: -80vw;
-			height: 300vw;
 		}
 
-		#first header {
-			display: none;
-		}
 
 		#blindaroonies {
-			top: -71vw;
+			top: -70vw;
 		}
-
-
 
 		#colouridoo {
 			background-color: white;
-			top: -240vw;
+			top: -70vw;
 		}
 
 		div.copyright {
