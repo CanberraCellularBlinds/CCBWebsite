@@ -3894,7 +3894,7 @@ input, select, textarea {
 		#headerpic span {
 			position: fixed;
 			z-index: -2;
-			max-height: 65%;
+			max-height: 70%;
 		}
 
 		.intro header {
