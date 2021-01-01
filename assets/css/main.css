@@ -180,6 +180,8 @@ input, select, textarea {
 		border-bottom: dotted 1px;
 	}
 
+
+
 		a:hover {
 			text-decoration: none;
 			border-bottom-color: transparent;
@@ -3397,8 +3399,9 @@ input, select, textarea {
 				color: inherit;
 			}
 
+/* MARCUS - margin at top of header */
 		#wrapper section {
-			margin: 7.5rem 0 0 0;
+			margin: 0 0 0 0;
 		}
 
 			#wrapper section > header {
@@ -3463,6 +3466,8 @@ input, select, textarea {
 		#wrapper .copyright {
 			padding: 0 5rem;
 		}
+/* MARCUS - this is where i raised the blinds picture up */
+
 
 		@media screen and (max-width: 1280px) {
 
@@ -3885,22 +3890,35 @@ input, select, textarea {
 
 /*this is me*/
 
+
+
+
 	}		@media screen and (max-width: 1152px) {
 
 		#headerlist li {
 			font-size: 2.8vw;
 		}
+		#headerlist {
+			position: relative;
+			top: -4vw;
+		}
 
 		#headerpic span {
 			position: fixed;
+			top: -2vw;
 			z-index: -2;
-			max-height: 70%;
+			max-height: 65%;
 		}
 
 		.intro header {
 			position: relative;
 			height: 140vw;
 			top: 105vw;
+
+		}
+		.intro header h1 {
+			top: -3vw;;
+			font-size: 8.5vw;
 		}
 
 		.intro header p {
@@ -3908,8 +3926,8 @@ input, select, textarea {
 		}
 
 		#first  {
-			z-index: 100000;
-			top: -90vw;
+			z-index: 100;
+			top: -100vw;
 			display: absolute;
 		}
 		#first header {
@@ -3922,7 +3940,13 @@ input, select, textarea {
 		}
 
 		#calltoactionmobile {
-			font-size: 3.8vw;
+			position: relative;
+			top: -8vw;
+			font-size: 3vw;
+			border: 1px solid black;
+			padding: 5px;
+			padding-left: 10px;
+			padding-right: 10px;
 		}
 
 		#contento {
@@ -3931,12 +3955,12 @@ input, select, textarea {
 
 
 		#blindaroonies {
-			top: -90vw;
+			top: -100vw;
 		}
 
 		#colouridoo {
 			background-color: white;
-			top: -90vw;
+			top: -100vw;
 		}
 
 		div.copyright {
